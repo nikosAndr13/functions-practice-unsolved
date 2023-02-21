@@ -41,9 +41,9 @@ const isNameInArray = (arr, name) => arr.includes(name);
  * Hint: There are two functions to refactor.
  */
 
-const logSecondsUpToMax = function (max) {
+const logSecondsUpToMax = (max) => {
   let i = 0;
-  const timer = setInterval(function() {
+  const timer = setInterval(() => {
     if (i < max) {
       console.log(i++);
     }
